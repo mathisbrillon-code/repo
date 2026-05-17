@@ -2,14 +2,14 @@
   "name": "All-in-One-Nuvio",
   "version": "1.0.0",
   "scrapers": [
-     {
+    {
       "id": "movix",
       "name": "Movix VF",
       "description": "Movies and TV series in English & French (dubbed/subtitled)",
       "version": "1.0.0",
       "author": "wooodyhood",
       "supportedTypes": ["movie", "tv"],
-      "filename": "providers/movix.js",
+      "filename": "https://raw.githubusercontent.com/mathisbrillon-code/repo/main/nuvio/providers/movix.js",
       "enabled": true,
       "formats": ["mp4", "m3u8"],
       "logo": "https://i.postimg.cc/XYrPQm87/movix.png",
@@ -22,25 +22,24 @@
       "version": "3.8.2",
       "author": "Wooodyhood",
       "supportedTypes": ["movie", "tv"],
-      "filename": "providers/nakios.js",
+      "filename": "https://raw.githubusercontent.com/mathisbrillon-code/repo/main/nuvio/providers/nakios.js",
       "enabled": true,
       "formats": ["mp4", "m3u8"],
       "logo": "https://i.postimg.cc/nLwY1pJB/nakios.png",
       "contentLanguage": ["fr", "en"]
     },
-                  {
+    {
       "id": "purstream",
       "name": "Purstream",
       "description": "Films and series in French (VF) / subtitled French (VOSTFR) / multi-language (MULTI) from purstream.art.",
       "version": "3.0.0",
       "author": "wooodyhood",
       "supportedTypes": ["movie", "tv"],
-      "filename": "providers/purstream.js",
+      "filename": "https://raw.githubusercontent.com/mathisbrillon-code/repo/main/nuvio/providers/purstream.js",
       "enabled": true,
       "formats": ["mp4", "m3u8"],
       "logo": "https://i.postimg.cc/7L5shxmC/purstream.png",
       "contentLanguage": ["en", "fr"]
     }
-
-                    ]
+  ]
 }
